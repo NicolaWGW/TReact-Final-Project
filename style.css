@@ -41,6 +41,14 @@ main {
     margin-bottom: 96px;
 }
 
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
 
 /* 
 
@@ -78,7 +86,7 @@ NAVBAR ↓
     color: black;
 }
 
-.nav__links {
+.nav__link--list {
     text-decoration: none;
     color: #6415ff;
     display: flex;
@@ -87,8 +95,9 @@ NAVBAR ↓
     gap: calc(100%/5);
 }
 
-.nav__link {
+.nav__link--anchor {
     list-style: none;
+    text-decoration: none;
     color: #6415ff;
 }
 
