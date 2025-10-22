@@ -50,13 +50,17 @@ NAVBAR ↓
 
 
 .nav {
+    height: 100px;
+    width: 100%;
     display: flex;
     padding-top: 32px;
 }
 
 .nav__row {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 24px;
 }
 
 .nav__logo {
@@ -67,19 +71,33 @@ NAVBAR ↓
 }
 
 .logo__pic {
-    height: 80px;
+    height: 40px;
 }
 
 .nav__logo--name {
-    color: #6415ff;
+    color: black;
 }
 
 .nav__links {
-    list-style-type: none;
+    text-decoration: none;
     color: #6415ff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: calc(100%/5);
+}
+
+.nav__link {
+    list-style: none;
+    color: #6415ff;
+}
+
+.nav__link--anchor-primary {
+    background-color: #6415ff;
+    list-style: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
 }
 
 
@@ -171,10 +189,40 @@ header .row {
 
 .section__templates {
     font-size: 36px;
+    max-width: 450px;
 }
 
 .text--purple {
     color: #6415ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    border-radius: 50px;
+}
+
+.section__button {
+    background-color: #6415ff;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.section__customers {
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.customer__strip {
+    max-width: 300px;
+    opacity: 65%;
+}
+
+.section__image {
+    max-width: 800px;
 }
 
 
