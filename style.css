@@ -95,16 +95,17 @@ NAVBAR ↓
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: calc(100%/5);
 }
 
 .nav__link--anchor {
     text-decoration: none;
     color: #6415ff;
+    margin: 0 24px;
 }
 
 .nav__link--anchor-primary {
     background-color: #6415ff;
+    text-decoration: none;
     list-style: none;
     padding: 8px 20px;
     border-radius: 50px;
@@ -252,6 +253,17 @@ FEATURES ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section__features--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
