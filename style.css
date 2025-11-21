@@ -269,8 +269,18 @@ FEATURES ↓
 .features__list--items {
     width: calc(100%/3);
     display: flex;
+    align-items: flex-start;
+    gap: 16px;
 }
 
+.feature__icon {
+    width: 40px;
+}
+
+.feature__icon--primary {
+    border: 4px;
+    border-radius: 50px;
+}
 
 
 /* 
