@@ -266,6 +266,12 @@ FEATURES ↓
     flex-wrap: wrap;
 }
 
+.features__list--items {
+    width: calc(100%/3);
+    display: flex;
+}
+
+
 
 /* 
 
