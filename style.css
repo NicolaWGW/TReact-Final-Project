@@ -277,11 +277,12 @@ FEATURES ↓
     width: 40px;
 }
 
-.feature__icon--primary {
-    border: 4px;
-    border-radius: 50px;
+.feature__img--wrapper {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
 }
-
 
 /* 
 
