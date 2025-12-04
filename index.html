@@ -77,13 +77,15 @@
                 <div class="row">
                     <div class="row__left">
                         <h2 class="section__templates">Beautiful React Templates <span class="text--purple">for you.</span></h2>
-                        <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
+                        <p class="header__description">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
                         </p>
-                        <form action="">
-                            <input type="text" placeholder="Your E-Mail Address">
-                            <button class="section__button">Get Started</button>
-                        </form>
-                        <div>
+                        <div class="header__email">
+                            <form action="">
+                                <input type="text" class="header__email--input" placeholder="Your E-Mail Address">
+                                <button class="section__button">Get Started</button>
+                            </form>
+                        </div>
+                        <div class="header__customers">
                             <h6 class="section__customers">OUR TRUSTED CUSTOMERS</h6>
                             <img class="customer__strip" src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png">
                         </div>
@@ -100,8 +102,8 @@
                 <div class="row__narrow">
                     <div class="section__features--header">
                         <h5 class="section__features"><span class="text--purple">FEATURES</span></h5>
-                        <h1>We have Amazing <span class="text--purple">Service.</span> </h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi excepturi maiores libero tempora laboriosam tempore at cupiditate possimus voluptatum magni?</p>
+                        <h1 class="section__header">We have Amazing <span class="text--purple">Service.</span> </h1>
+                        <p class="section__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi excepturi maiores libero tempora laboriosam tempore at cupiditate possimus voluptatum magni?</p>
                     </div>
                     <div class="features__list">
                         <div class="features__list--items">
@@ -165,12 +167,14 @@
         <section id="quality">
             <div class="container">
                 <div class="row">
-                    <h5 class="section__quality">QUALITY WORK</h5>
-                    <h1>Designed & Developed by Professionals.</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis natus iure quisquam? Illo facere est laboriosam, ullam optio expedita pariatur voluptates adipisci asperiores a aliquam ipsa cum corporis quae! Quaerat.</p>
-                    <button>Learn More</button>
-                    <figure>
-                        <img src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png">
+                    <div class="section__quality">
+                        <h5 class="quality__features"><span class="text--purple">QUALITY WORK</span></h5>
+                        <h1 class="quality__header">Designed & Developed by <span class="text--purple">Professionals.</span></h1>
+                        <p class="quality__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis natus iure quisquam? Illo facere est laboriosam, ullam optio expedita pariatur voluptates adipisci asperiores a aliquam ipsa cum corporis quae! Quaerat.</p>
+                        <button class="quality__btn--primary">Learn More</button>
+                    </div>
+                    <figure class="quality__img--wrapper">
+                        <img class="quality__image" src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png">
                     </figure>
                 </div>
             </div>
@@ -178,26 +182,43 @@
         <section id="steps">
             <div class="container">
                 <div class="row">
-                    <h5 class="section__steps">STEPS</h5>
                     <figure>
                         <img src="./assets/hero-screenshot-2.241aac1fbc66db29d873.png">
                     </figure>
-                    <h1>Easy to Get Started.</h1>
-                    <!--  -->Enter Steps Section<!--  -->
-                    <div class="steps__list">
-                        <h2>01</h2>
-                        <h3>Register</h3>
-                        <p>Create an account with us using Google or Facebook.</p>
-                    </div>
-                    <div class="steps__list">
-                        <h2>02</h2>
-                        <h3>Download</h3>
-                        <p>Browse and Download the template that you like from the marketplace.</p>
-                    </div>
-                    <div class="steps__list">
-                        <h2>03</h2>
-                        <h3>Run</h3>
-                        <p>Follow the instructions to setup and customize the template to your needs.</p>
+                    <div>
+                        <h5 class="section__steps"><span class="text--purple">STEPS</span></h5>
+                        <h1 class="steps__title">Easy to <span class="text--purple"> Get Started.</span></h1>
+                        <div class="steps__list">
+                            <div class="steps__numbers">
+                                <h2 class="steps__numbers--one">01</h2>
+                            </div>
+                            <div class="steps__instructions">
+                                <h3>Register</h3>
+                                <p>Create an account with us using Google or Facebook.</p>
+                            </div>
+                        </div>
+                        <div class="steps__list">
+                            <div class="steps__numbers">
+                                <h2 class="steps__numbers--two">02</h2>
+                            </div>
+                            <div>
+                                <div class="steps__instructions">
+                                    <h3>Download</h3>
+                                    <p>Browse and Download the template that you like from the marketplace.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps__list">
+                            <div class="steps__numbers">
+                                <h2 class="steps__numbers--three">03</h2>
+                            </div>
+                            <div>
+                                <div class="steps__instructions">
+                                    <h3>Run</h3>
+                                    <p>Follow the instructions to setup and customize the template to your needs.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,30 +226,38 @@
         <section id="values">
             <div class="container">
                 <div class="row">
-                    <h5 class="section__values">VALUES</h5>
-                    <h1>We Always Abide by Our Principles.</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur obcaecati tempora laboriosam exercitationem tenetur deserunt cupiditate eos fugiat ab quam.
-                    </p>
-                        <div>
-                            <img src="./assets/dollar-sign.svg">
-                            <h3>Affordable</h3>
+                    <div class="section__values">
+                        <h5 class="values__features"><span class="text--purple">VALUES</span></h5>
+                        <h1 class="values__header">We Always Abide by Our <span class="text--purple">Principles.</span></h1>
+                        <p class="values__para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur obcaecati tempora laboriosam exercitationem tenetur deserunt cupiditate eos fugiat ab quam.
+                        </p>
+                        <div class="values__details">
+                            <div class="values__affordable">
+                                <div>
+                                    <img class="affordable__img--wrapper" src="./assets/dollar-sign.svg">
+                                    <h3>Affordable</h3>
+                                </div>
+                                <div>
+                                    <p class="values__para">We promise to offer you the best rate we can - at par with the industry standard.</p>
+                                </div>
+                                <button class="values__btn--primary">Learn More</button>
+                            </div>
+                            <div class="values__professional">
+                                <div>
+                                    <img class="professional__img--wrapper" src="./assets/briefcase.svg">
+                                    <h3>Professionalism</h3>
+                                </div>
+                                <div>
+                                    <p class="values__para">We assure you that our templates are designed and created by professional designers.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <p>We promise to offer you the best rate we can - at par with the industry standard.</p>
                         </div>
-                        <div>
-                            <img src="./assets/briefcase.svg">
-                            <h3>Professionalism</h3>
-                        </div>
-                        <div>
-                            <p>We assure you that our templates are designed and created by professional designers.</p>
-                        </div>
-                        <button>Learn More</button>
                     </div>
                     <div>
                         <figure>
-                            <img src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
+                            <img class="values__img" src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
                         </figure>
                     </div>
                 </div>
@@ -237,63 +266,76 @@
         <section id="pricing">
             <div class="container">
                 <div class="row">
-                        <h5 class="section__pricing">PRICING</h5>
-                        <h1>Reasonable & Flexible Plans.</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur.
-                        </p>
-                        <!--  -->Enter Pricing Section<!--  -->
-                    <div class="price">
-                        <div class="price__stripe--personal"></div>
-                        <div class="price__top--personal">
-                            <div class="price__name">PERSONAL</div>
-                            <div class="price__cost">$17.99</div>
-                            <div class="price__terms">MONTHLY</div>
+                    <div class="section__pricing">
+                        <div class="section__pricing--header">
+                            <h5 class="pricing__features"><span class="text--purple">PRICING</span></h5>
+                            <h1 class="pricing__header">Reasonable & Flexible <span class="text--purple">Plans.</span></h1>
+                            <p class="pricing__para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur.
+                            </p>
                         </div>
-                        <div class="price__middle--personal">
-                            <div class="price__customer">For Individuals</div>
-                            <div class="price__features">30 Templates</div>
-                            <div class="price__features">7 Landing Pages</div>
-                            <div class="price__features">12 internal pages</div>
-                            <div class="price__features">Basic Assistance</div>
-                        </div>
-                        <div class="price__bottom--personal">
-                            <button class="price__button--personal">Buy Now</button>
-                        </div>
-                    </div>
-                    <div class="price">
-                        <div class="price__top--business">
-                            <div class="price__name">BUSINESS</div>
-                            <div class="price__cost">$37.99</div>
-                            <div class="price__terms">MONTHLY</div>
-                        </div>
-                        <div class="price__middle--business">
-                            <div class="price__customer">For Small Businesses</div>
-                            <div class="price__features">60 Templates</div>
-                            <div class="price__features">15 Landing Pages</div>
-                            <div class="price__features">22 internal pages</div>
-                            <div class="price__features">Priority Assistance</div>
-                        </div>
-                        <div class="price__bottom--business">
-                            <button class="price__button--business">Buy Now</button>
-                        </div>
-                    </div>
-                    <div class="price">
-                        <div class="price__stripe--enterprise"></div>
-                        <div class="price__top--enterprise">
-                            <div class="price__name">ENTERPRISE</div>
-                            <div class="price__cost">$57.99</div>
-                            <div class="price__terms">MONTHLY</div>
-                        </div>
-                        <div class="price__middle--enterprise">
-                            <div class="price__customer">For Large Companies</div>
-                            <div class="price__features">90 Templates</div>
-                            <div class="price__features">27 Landing Pages</div>
-                            <div class="price__features">37 internal pages</div>
-                            <div class="price__features">Personal Assistance</div>
-                        </div>
-                        <div class="price__bottom--enterprise">
-                            <button class="price__button--enterprise">Buy Now</button>
+                        <div class="price__options">
+                            <div class="price__personal">
+                                <div class="price__personal--wrapper">
+                                    <div class="price__personal--top">
+                                        <div class="price__name">PERSONAL</div>
+                                        <div class="price__cost">$17.99</div>
+                                        <div class="price__terms--personal">MONTHLY</div>
+                                    </div>
+                                    <div class="price__personal--middle">
+                                        <div class="price__customer">For Individuals</div>
+                                        <div class="price__features--personal">30 Templates</div>
+                                        <div class="price__features--personal">7 Landing Pages</div>
+                                        <div class="price__features--personal">12 internal pages</div>
+                                        <div class="price__features--personal">Basic Assistance</div>
+                                    </div>
+                                    <div class="price__personal--bottom">
+                                        <button class="price__button" class="price__button--personal">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="price__business--wrapper">
+                                    <div class="price__business">
+                                        <div class="price__business--top">
+                                            <div class="price__name--business">BUSINESS</div>
+                                            <div class="price__cost--business">$37.99</div>
+                                            <div class="price__terms--business">MONTHLY</div>
+                                        </div>
+                                        <div class="price__business--middle">
+                                            <div class="price__customer--business">For Small Businesses</div>
+                                            <div class="price__features--business">60 Templates</div>
+                                            <div class="price__features--business">15 Landing Pages</div>
+                                            <div class="price__features--business">22 internal pages</div>
+                                            <div class="price__features--business">Priority Assistance</div>
+                                        </div>
+                                        <div class="price__business">
+                                            <button class="price__button" class="price__button--business">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="price__enterprise--wrapper">
+                                    <div class="price__enterprise">
+                                        <div class="price__enterprise--top">
+                                            <div class="price__name">ENTERPRISE</div>
+                                            <div class="price__cost">$57.99</div>
+                                            <div class="price__terms--enterprise">MONTHLY</div>
+                                        </div>
+                                        <div class="price__enterprise--middle">
+                                            <div class="price__customer">For Large Companies</div>
+                                            <div class="price__features--enterprise">90 Templates</div>
+                                            <div class="price__features--enterprise">27 Landing Pages</div>
+                                            <div class="price__features--enterprise">37 internal pages</div>
+                                            <div class="price__features--enterprise">Personal Assistance</div>
+                                        </div>
+                                        <div class="price__enterprise--bottom">
+                                            <button class="price__button" class="price__button--enterprise">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -302,34 +344,54 @@
         <section id="testimonials">
             <div class="container">
                 <div class="row">
-                    <figure>
-                        <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg">
-                    </figure>
-                    <h5 class="section__title">TESTIMONIALS</h5>
-                    <h1>Our Clients Love Us.</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur.
-                    </p>
-                    <div>
-                        <div class="testimonial__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                    <div >
+                        <figure class="testimonials__img">
+                            <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg">
+                        </figure>
+                    </div>
+                    <div class="section__testimonials">
+                        <div class="testimonials__top">
+                            <h5 class="section__title"><span class="text--purple">TESTIMONIALS</span></h5>
+                            <h1 class="testimonials__header">Our Clients <span class="text--purple">Love Us.</span></h1>
+                            <p class="testimonials__para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam, maxime minus molestias temporibus incidunt obcaecati. Nam, perferendis aspernatur.
+                            </p>
                         </div>
-                        <h3 class="testimonial__title">Amazing User Experience</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem incidunt nemo recusandae maxime, corporis illum unde amet odit aliquid facilis in vero hic deserunt laboriosam ipsa aut nam facere non a illo quis aliquam adipisci. Eligendi, corrupti. Reprehenderit nobis, perspiciatis asperiores soluta voluptatum eum porro at. Pariatur quibusdam nobis eos nemo. Distinctio ad officia, quisquam cumque saepe enim. Obcaecati?</p>
-                        <div>
-                            <img src="./assets/photo-1494790108377-be9c29b29330.avif">
-                            <div>Charlotte Hale</div>
-                            <div>Director, Delos Inc.</div>
-                            <a href="">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                        <div class="testimonials__middle">
+                            <div class="testimonial__rating">
+                                <a href class="testimonial__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                            </div>
+                            <h3 class="testimonial__title">Amazing User Experience</h3>
+                            <p class="testimonial__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem incidunt nemo recusandae maxime, corporis illum unde amet odit aliquid facilis in vero hic deserunt laboriosam ipsa aut nam facere non a illo quis aliquam adipisci. Eligendi, corrupti. Reprehenderit nobis, perspiciatis asperiores soluta voluptatum eum porro at. Pariatur quibusdam nobis eos nemo. Distinctio ad officia, quisquam cumque saepe enim. Obcaecati?</p>
+                        </div>
+                        <div class="testimonials__bottom">
+                            <div class="testimonial__profile">
+                                <div class="testimonials__pic--wrapper">
+                                    <img class="testimonials__pic" src="./assets/photo-1494790108377-be9c29b29330.avif">
+                                </div>
+                                <div class="testimonial__details">
+                                    <div class="testimonial__profile--name">
+                                        <h3>Charlotte Hale</h3>
+                                    </div>
+                                    <div class="testimonial__profile--title">
+                                        <h4>Director, Delos Inc.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__buttons">
+                                <a href="">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -338,9 +400,15 @@
         <section id="start">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__start">Developers all over the world are happily using Treact.</h2>
-                    <button>Get Started</button>
-                    <button>Contact Us</button>
+                        <div class="container__start--wrapper">
+                            <div class="start__title">
+                                Developers all over the world are happily using Treact.
+                            </div>
+                            <div class="start__buttons">
+                                <button class="start__buttons--start">Get Started</button>
+                                <button class="start__buttons--contact">Contact Us</button>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -349,59 +417,77 @@
         <div class="row footer__row">
             <div class="footer__list">
                 <div class="footer__list--main">
-                    <h6>MAIN</h6>
-                    <h6>Blog</h6>
-                    <h6>FAQs</h6>
-                    <h6>Support</h6>
-                    <h6>About Us</h6>
+                    <div class="footer__list--detailsmain">
+                        <h3>MAIN</h3>
+                        <h4>Blog</h4>
+                        <h4>FAQs</h4>
+                        <h4>Support</h4>
+                        <h4>About Us</h4>
+                    </div>
                 </div>
                 <div class="footer__list--product">
-                    <h6>PRODUCT</h6>
-                    <h6>Log In</h6>
-                    <h6>Personal</h6>
-                    <h6>Business</h6>
-                    <h6>Team</h6>
+                    <div class="footer__list--detailsproduct">
+                        <h3>PRODUCT</h3>
+                        <h4>Log In</h4>
+                        <h4>Personal</h4>
+                        <h4>Business</h4>
+                        <h4>Team</h4>
+                    </div>
                 </div>
                 <div class="footer__list--press">
-                    <h6>PRESS</h6>
-                    <h6>Logos</h6>
-                    <h6>Events</h6>
-                    <h6>Stories</h6>
-                    <h6>Office</h6>
+                    <div class="footer__list--detailspress">
+                        <h3>PRESS</h3>
+                        <h4>Logos</h4>
+                        <h4>Events</h4>
+                        <h4>Stories</h4>
+                        <h4>Office</h4>
+                    </div>
                 </div>
                 <div class="footer__list--team">
-                    <h6>TEAM</h6>
-                    <h6>Career</h6>
-                    <h6>Founders</h6>
-                    <h6>Culture</h6>
-                    <h6>Onboarding</h6>
+                    <div class="footer__list--detailsteam">
+                        <h3>TEAM</h3>
+                        <h4>Career</h4>
+                        <h4>Founders</h4>
+                        <h4>Culture</h4>
+                        <h4>Onboarding</h4>
+                    </div>
                 </div>
                 <div class="footer__list--legal">
-                    <h6>LEGAL</h6>
-                    <h6>GDPR</h6>
-                    <h6>Privacy Policy</h6>
-                    <h6>Terms of Service</h6>
-                    <h6>Disclaimer</h6>
+                    <div class="footer__list--detailslegal">
+                        <h3>LEGAL</h3>
+                        <h4>GDPR</h4>
+                        <h4>Privacy Policy</h4>
+                        <h4>Terms of Service</h4>
+                        <h4>Disclaimer</h4>
+                    </div>
                 </div>
             </div>
             <div class="footer__bottom">
                 <div class="footer__logo">
-                    <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg">
-                    <h3>TReact Inc.</h3>
+                    <img class="footer__logo--wrapper" src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg">
+                    <div class="footer__name">
+                        <h3>TReact Inc.</h3>
+                    </div>
                 </div>
                 <div class="footer__copyright">
                     © 2018 Treact Inc. All Rights Reserved.
                 </div>
                 <div class="footer__socials">
-                    <a href="" class="socials__link">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="socials__link">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="" class="socials__link">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
+                    <div class="socials__wrapper--facebook">
+                        <a href="" class="socials__link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="socials__wrapper--twitter">
+                        <a href="" class="socials__link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="socials__wrapper--youtube">
+                        <a href="" class="socials__link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
