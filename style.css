@@ -458,6 +458,7 @@ STEPS ↓
 
 .steps__title {
     display: flex;
+    gap: 10px;
 }
 
 .steps__list {
