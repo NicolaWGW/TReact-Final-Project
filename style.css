@@ -687,7 +687,11 @@ PRICING ↓
 }
 
 .price__button--personal {
-    background-color: green;
+    background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
     color: white;
 }
 
@@ -697,7 +701,7 @@ PRICING ↓
 }
 
 .price__button--enterprise {
-    background-color: orange;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     color: white;
 }
 /* 
