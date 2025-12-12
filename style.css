@@ -688,14 +688,17 @@ PRICING ↓
 
 .price__button--personal {
     background-color: green;
+    color: white;
 }
 
 .price__button--business {
     background-color: white;
+    color: #6415ff;
 }
 
 .price__button--enterprise {
     background-color: orange;
+    color: white;
 }
 /* 
 
