@@ -606,6 +606,16 @@ PRICING ↓
     padding: 50px;
 }
 
+.price__stripe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
 .price__personal--wrapper, .price__enterprise--wrapper {
     display: flex;
     flex-direction: column;
@@ -660,6 +670,12 @@ PRICING ↓
 .price__customer {
     font-weight: bold;
     font-size: 20px;
+}
+
+.price__personal--middle {
+    border-top: 2px;
+    color: grey;
+    border-bottom: 2px;
 }
 
 .price__customer--business {
