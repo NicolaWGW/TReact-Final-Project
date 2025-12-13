@@ -541,14 +541,14 @@ VALUES ↓
 
 .affordable__img--wrapper {
     display: flex;
-    background-color: green;
+    background-color: #9ae6b4;
     padding: 8px;
     border-radius: 500px;
 }
 
 .professional__img--wrapper {
     display: flex;
-    background-color: orange;
+    background-color: #feb2b2;
     padding: 8px;
     border-radius: 500px;
 }
@@ -607,13 +607,6 @@ PRICING ↓
 }
 
 .price__stripe {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 0.5rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
 }
 
 .price__personal--wrapper, .price__enterprise--wrapper {
@@ -673,9 +666,18 @@ PRICING ↓
 }
 
 .price__personal--middle {
-    border-top: 2px;
-    color: grey;
-    border-bottom: 2px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.price__business--middle {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.price__enterprise--middle {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .price__customer--business {
@@ -894,6 +896,10 @@ footer {
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
+}
+
+.footer__divider {
+    border-width: 2px solid lightgray;
 }
 
 .footer__bottom {
