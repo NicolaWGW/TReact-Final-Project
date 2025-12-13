@@ -612,7 +612,6 @@ PRICING ↓
 .price__personal--wrapper, .price__enterprise--wrapper {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 10px;
     margin-right: 20px;
@@ -621,7 +620,6 @@ PRICING ↓
 .price__business--wrapper {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     border: 1px solid #e5e7eb;
     border-radius: 10px;
@@ -940,6 +938,7 @@ footer {
     border-radius: 500px;
     border: none;
     background-color: white;
+    margin-left: 10px;
 }
 
 
