@@ -613,12 +613,20 @@ PRICING ↓
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%,rgb(129, 230, 217) 100%);
 }
 
+.price__stripe--enterprise {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 .price__personal--wrapper, .price__enterprise--wrapper {
     display: flex;
     flex-direction: column;
     border: 1px solid #e5e7eb;
     border-radius: 10px;
     margin-right: 20px;
+    position: relative;
 }
 
 .price__business--wrapper {
@@ -859,9 +867,10 @@ START / CALL TO ACTION ↓
 
 .start__buttons--start {
     padding: 16px 32px;
+    margin-right: 32px;
     border-radius: 50px;
     border: none;
-    background-color: orange;
+    background-color: #f56565;
     color: white;
     font-weight: bold;
     font-size: 16px;
