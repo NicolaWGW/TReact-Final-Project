@@ -668,6 +668,10 @@ PRICING ↓
     border-bottom: 2px solid lightgray;
 }
 
+.price__personal--bottom, .price__business--bottom, .price__enterprise--bottom {
+    padding: 32px 96px;
+}
+
 .price__business--middle {
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
