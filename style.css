@@ -606,7 +606,11 @@ PRICING ↓
     padding: 50px;
 }
 
-.price__stripe {
+.price__stripe--personal {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%,rgb(129, 230, 217) 100%);
 }
 
 .price__personal--wrapper, .price__enterprise--wrapper {
@@ -768,6 +772,7 @@ TESTIMONIALS ↓
 
 .testimonial__stars {
     padding: 20px;
+    color: rgba(246, 173, 85);
 }
 
 .testimonials__bottom {
