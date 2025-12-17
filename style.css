@@ -817,6 +817,7 @@ TESTIMONIALS ↓
 .testimonial__details {
     display: flex;
     flex-direction: column;
+    margin-left: 24px;
 }
 
 .testimonial__profile--title {
@@ -825,13 +826,9 @@ TESTIMONIALS ↓
 
 .testimonials__pic {
     max-width: 100px;
-}
-
-.testimonials__pic--wrapper {
-    padding: 20px;
-    display: flex;
-    border: 1px solid #e5e7eb;
-    border-radius: 500px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 /* 
