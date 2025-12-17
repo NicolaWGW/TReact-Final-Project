@@ -787,7 +787,10 @@ TESTIMONIALS ↓
 
 .testimonial__stars {
     padding: 20px;
-    color: rgba(246, 173, 85);
+}
+
+.fa-star {
+    color: #f6ad55;
 }
 
 .testimonials__bottom {
