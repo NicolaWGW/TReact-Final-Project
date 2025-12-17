@@ -754,6 +754,7 @@ TESTIMONIALS ↓
 }
 
 .testimonials__img {
+    width: 100%;
     max-width: 600px;
     width: 60%;
 }
