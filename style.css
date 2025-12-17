@@ -831,6 +831,22 @@ TESTIMONIALS ↓
     border-radius: 50%;
 }
 
+.testimonial__divider {
+    
+}
+
+.testimonial__buttons {
+    display: flex;
+}
+
+.fa-arrow-left {
+    color: #6415ff;
+}
+
+.fa-arrow-right {
+    color: #6415ff;
+}
+
 /* 
 
 START / CALL TO ACTION ↓
