@@ -130,6 +130,10 @@ NAVBAR ↓
     color: white;
 }
 
+.nav__link--anchor-primary:hover {
+    background-color: darkslateblue;
+}
+
 .nav__link--anchor:hover {
     border-bottom: 3px solid #6415ff;
     padding-bottom: 4px;
@@ -1006,6 +1010,11 @@ footer {
     position: relative;
     cursor: pointer;
     text-decoration: none;
+}
+
+.footer__column--feature:hover {
+    border-bottom: 3px solid white;
+    transition: all 300ms ease;
 }
 
 .footer__divider {
