@@ -130,6 +130,11 @@ NAVBAR ↓
     color: white;
 }
 
+.nav__link--anchor:hover {
+    border-bottom: 3px solid #6415ff;
+    padding-bottom: 4px;
+}
+
 
 .btn__menu {
     display: none;
