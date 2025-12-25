@@ -757,6 +757,7 @@ PRICING ↓
     padding: 16px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
 }
 
 .price__button--personal {
@@ -766,17 +767,39 @@ PRICING ↓
     rgb(129, 230, 217) 100%
   );
     color: white;
+    font-weight: bold;
 }
 
 .price__button--business {
     background-color: white;
     color: #6415ff;
+    font-weight: bold;
 }
 
 .price__button--enterprise {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     color: white;
+    font-weight: bold;
 }
+
+.price__button--personal:hover {
+    transform: translateY(-10%);
+    transition: all 300ms ease;
+    box-shadow: 0 4px 2px rgb(0, 0, 0, 0.3);
+}
+
+.price__button--business:hover {
+    transform: translateY(-10%);
+    transition: all 300ms ease;
+    box-shadow: 0 4px 2px rgb(0, 0, 0, 0.3);
+}
+
+.price__button--enterprise:hover {
+    transform: translateY(-10%);
+    transition: all 300ms ease;
+    box-shadow: 0 4px 2px rgb(0, 0, 0, 0.3);
+}
+
 /* 
 
 TESTIMONIALS ↓
