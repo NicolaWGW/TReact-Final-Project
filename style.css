@@ -280,6 +280,7 @@ form {
 
 .section__button:hover {
     background-color: darkslateblue;
+    cursor: pointer;
 }
 
 .header__customers {
@@ -415,6 +416,7 @@ QUALITY WORK ↓
 
 .quality__btn--primary:hover {
     background-color: darkslateblue;
+    cursor: pointer;
 }
 
 .quality__image {
@@ -570,6 +572,7 @@ VALUES ↓
 
 .values__btn--primary:hover {
     background-color: darkslateblue;
+    cursor: pointer;
 }
 
 .affordable__img--wrapper {
@@ -989,6 +992,7 @@ START / CALL TO ACTION ↓
 
 .start__buttons--start:hover {
     background: orangered;
+    cursor: pointer;
 }
 
 .start__buttons--contact {
@@ -1005,6 +1009,7 @@ START / CALL TO ACTION ↓
 .start__buttons--contact:hover {
     background-color: white;
     color: #6415ff;
+    cursor: pointer;
 }
 
 /* 
