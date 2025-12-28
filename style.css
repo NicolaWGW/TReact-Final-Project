@@ -1186,6 +1186,39 @@ MOBILE RESPONSIVENESS ↓
         display: flex;
         flex-direction: column;
     }
+
+    .row__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header__description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__templates {
+        font-size: x-large;
+    }
+
+    .header__customers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
 }
 
 @media(max-width: 640px) {
