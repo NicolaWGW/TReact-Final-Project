@@ -249,7 +249,6 @@ header .row {
 
 .header__email--input {
     width: 100%;
-    max-width: 448px;
     padding: 12px 140px 12px 16px;
     border: none;
     outline: none;
