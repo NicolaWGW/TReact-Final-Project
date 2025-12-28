@@ -1204,6 +1204,10 @@ MOBILE RESPONSIVENESS ↓
         font-size: x-large;
     }
 
+    .header__email {
+        width: 100%;
+    }
+
     .header__customers {
         display: flex;
         flex-direction: column;
