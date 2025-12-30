@@ -1175,6 +1175,13 @@ MOBILE RESPONSIVENESS ↓
         display: none;
     }
 
+    /*FEATURES*/
+
+    .features__list--items {
+        width: 80%;
+        align-items: center;
+    }
+
     .section__features--header {
         display: flex;
         flex-direction: column;
@@ -1205,7 +1212,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .header__email {
-        width: 100%;
+        width: 80%;
     }
 
     .header__customers {
@@ -1216,12 +1223,133 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
     }
 
+    .customer__strip {
+        max-width: 80%;
+    }
+
     .section__image {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
     }
+
+    .row__narrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*QUALITY WORK*/
+.section__quality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/*STEPS*/
+.section__steps {
+    display: flex;
+    justify-content: center;
+}
+
+.steps__title {
+    display: flex;
+    justify-content: center;
+}
+
+.steps__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__numbers {
+    margin-bottom: 10px;
+}
+
+.steps__instructions {
+    margin-bottom: 10px;
+}
+
+/*VALUES*/
+
+.values__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*PRICE*/
+
+.price__options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__personal--wrapper {
+    margin-bottom: 20px;
+}
+
+.price__business--wrapper {
+    margin-bottom: 20px;
+}
+
+/*TESTIMONIALS*/
+
+.container {
+    padding: 40px;
+}
+
+.section__testimonials {
+    width: 100%;
+}
+
+.testimonials__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/*START*/
+
+.container__start--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+.footer__columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo, .footer__copyright, .footer__socials {
+    margin-bottom: 20px;
+}
+
+}
+
+
 }
 
 @media(max-width: 640px) {
