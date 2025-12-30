@@ -1178,8 +1178,10 @@ MOBILE RESPONSIVENESS ↓
     /*FEATURES*/
 
     .features__list--items {
-        width: 80%;
-        align-items: center;
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+        align-items: flex-start;
     }
 
     .section__features--header {
@@ -1189,9 +1191,19 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
     }
 
+    .section__features, .section__header, .section__para {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .features__list {
         display: flex;
         flex-direction: column;
+    }
+
+    .features__list--items h4, .features__list--items, .feature__para {
+        text-align: left;
     }
 
     .row__left {
@@ -1246,6 +1258,7 @@ MOBILE RESPONSIVENESS ↓
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .quality__header {
@@ -1253,6 +1266,12 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.quality__img--wrapper {
+    margin-bottom: 20px;
 }
 
 }
@@ -1273,6 +1292,7 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .steps__numbers {
@@ -1281,6 +1301,7 @@ MOBILE RESPONSIVENESS ↓
 
 .steps__instructions {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /*VALUES*/
@@ -1289,6 +1310,10 @@ MOBILE RESPONSIVENESS ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section__values {
+    text-align: center;
 }
 
 /*PRICE*/
